@@ -1,0 +1,31 @@
+{%extends 'index_main.html'%}
+{%block body%}
+<table>
+	<thead>
+	<tr>
+		<th class="th1">Заголовок</th>
+		<th class="th2">Нотатки</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>		
+		{%for data in the_datas%}	
+			<tr>
+			{%for x in data%}	
+		<td class="titles">	
+			{{x}}
+		</td>
+		{%endfor%}	
+	</tr>
+	{%endfor%}
+</tr>
+</tr>	
+	</tbody>
+</table>
+<div class="add_block">
+	<div class="img_block">
+		<a href="index2.html"><h5 class="plus">+</h5></a>
+		<p class="the_w">{{the_warn4}}</p>
+	</div>
+</div>
+{%endblock%}

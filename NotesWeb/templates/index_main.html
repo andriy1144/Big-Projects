@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{{the_title}}</title>
+	<link rel="stylesheet" type="text/css" href="static/static.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header_main">
+		<div class="header_div">
+			<a href="/">
+			<h4 class="header_title">Нотатки</h4>
+			<p class="header_p">Ваші нотатки тут :)</p>
+		</a>
+		</div>
+		<!--<div class="log_reg">-->
+			<h3 class="log_text">{{the_user}}</h3>
+			 <a href="{{the_link}}" class="{{the_style}}" ><li>{{the_log_text}}</li></a>
+		<!--</div>-->
+	</header>
+	{%block body%}
+	{%endblock%}
+</body>
+</html>

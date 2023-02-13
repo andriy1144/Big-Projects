@@ -1,0 +1,16 @@
+{%extends 'index_main.html'%}
+{%block body%}
+	<form class="reg_form" action="/thx" method="POST">
+		<h2 class="form_title">Введіть логін</h2>
+		<input class="input_reg" type="text" name="login">
+		<h2 class="form_title">Введіть пароль</h2>
+		<input class="input_reg" type="password" name="passwd">
+		<h2 class="form_title">Повторіть пароль</h2>
+		<input  class="input_reg" type="password" name="passwd2">
+		<p class="form_w">{{the_w}}</p>
+		<div class="block">
+		<button class="button_form2">Готово</button>
+		<a class="a_form" href="/login">Є акаунт?<br>Жми</a>
+		</div>
+	</form>
+{%endblock%}

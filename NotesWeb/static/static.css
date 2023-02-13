@@ -1,0 +1,278 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/*HEADER*/ 
+.header_main {
+	height: 100px;
+	border-bottom: 2px solid  black;
+	display: flex;
+}
+.header_title{
+	font-size:40px ;
+}
+.header_p{
+	font-style: italic;
+	width: 135px;
+}
+.header_div{
+	max-width: 250px;
+	padding-left: 50px;
+	padding-top: 20px;
+}
+/*.log_reg{
+	height: 30px;
+	margin-left:1100px;
+	margin-top: 40px;
+	width: 180px;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 10px;
+	background: black;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+}*/
+.reg_text{
+	font-size: 25px;
+	color: white;
+	background: black;
+	height: 60px;
+	margin-top:25px;
+	margin-left: -2px;
+	width: 160px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+}
+.reg_text_log{
+	font-size: 25px;
+	color: white;
+	background: black;
+	height: 60px;
+	margin-top:25px;
+	width: 160px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+}
+.reg_text:hover{
+	background:grey;
+}
+.reg_text_log:hover{
+	background:grey;
+}
+li{
+	list-style: none;
+	margin-top: -2px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.log_text{
+	margin-left:900px ;
+	font-size: 25px;
+	padding-top: 40px;
+	width: 150px;
+}
+/*add_button*/
+.plus{
+	font-size: 40px;
+	background-color: black;
+	color: white;
+	width: 70px;
+	margin-left: 730px;
+	text-align: center;
+	border-radius: 50px;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+}
+.img_block {
+	/*padding-left: 730px;*/
+	width: 75px;
+}
+.the_w{
+	width: 350px;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-left:620px ;
+	font-weight: 700;
+}
+.plus:hover {
+	font-size: 43;
+	background:grey;
+}
+.add_block{
+	margin-top: 20px;
+}
+
+/*form*/
+.form_main{
+	height: 100px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+.inputs1{
+	font-size: 50px;
+	border-radius: 10px;
+	width: 300px;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+	border: none;
+}
+.inputs2{
+	font-size: 30px;
+	border-radius: 10px;
+	width: 900px;
+	height: 50px;
+	margin-left: 20px;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+	border: none;
+}
+.button_form{
+	font-size: 30px;
+	margin-left:20px;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+	background: white;
+	border: none;
+}
+.button_form:hover{
+	background: whitesmoke;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .6);
+	cursor: pointer;
+}
+.inputs2:focus{
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .6);
+	background: whitesmoke;
+}
+.inputs1:focus{
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .6);
+	background: whitesmoke;
+}
+/*th*/
+.save_block{
+	text-align: center;
+	padding-top:30px ;
+}
+.warn{
+	font-size: 40px;
+}
+.a_warn{
+	text-align: center;
+	width: 60px;
+}
+
+/*list*/
+/*  */
+table {
+   border: 1px solid grey;
+   height: 100%;
+   width: 100%;
+   margin-top: 10px;
+}
+/* */
+th {
+   border: 1px solid grey;
+   font-size: 40px;
+}
+/*  */
+td {
+   border: 1px solid grey;
+   background: whitesmoke;
+   border-radius: 9px;
+}
+.titles{
+	font-size: 30px;
+}
+/*form2*/
+.reg_form{
+	font-size: 40px;
+	padding-left: 600px;
+	margin-top: 30px;}
+.input_reg{
+	font-size: 25px;
+	margin-top: 10px;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+	border: solid 1px grey;
+	border-radius: 5px;
+}
+.form_title{
+	padding-top: 10px;
+}
+.input_reg:focus{
+	border: solid 1px grey;
+}
+.button_form2{
+	display: block;
+	height: 50px;
+	width: 100px;
+	font-size: 20px;
+	margin-top: 10px;
+	color: white;
+	box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, .3);
+	border-radius: 5px;
+	background: black;
+}
+.button_form2:hover{
+	cursor: pointer;
+	background: grey;
+}
+.a_form{
+	font-size: 20px;
+	padding-top: 16px;
+	margin-left: 63px;
+}
+.a_form:hover{
+	text-decoration: underline;
+}
+.block{
+	display: flex;
+}
+.form_w{
+	font-size: 20px;
+	margin-top: 10px;
+	color: red;
+	font-weight: 700;
+}

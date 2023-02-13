@@ -1,0 +1,11 @@
+{%extends 'index_main.html'%}
+{%block body%}
+	<form class="reg_form" action="/thx_for_log" method="POST">
+		<h2 class="form_title">Введіть логін</h2>
+		<input class="input_reg" type="text" name="check_login">
+		<h2 class="form_title">Введіть пароль</h2>
+		<input class="input_reg" type="password" name="check_passwd">
+		<p class="form_w">{{the_w}}</p>
+		<button class="button_form2">Готово</button>
+	</form>
+{%endblock%}
