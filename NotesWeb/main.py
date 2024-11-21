@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 #app.config['config'] = {... -> Info to connect database}
 
-app.secret_key = 'YouWillNeverKnowMyCodHaHaHAHAah'
+#app.secret_key = SOME sercret key, yk
 
 
 def note_request(user, passw, name, note) -> object:
